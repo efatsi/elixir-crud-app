@@ -1,4 +1,4 @@
-defmodule CrudApp.PageController do
+defmodule CrudApp.UserController do
   use Phoenix.Controller
 
   plug :action
