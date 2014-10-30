@@ -3,5 +3,5 @@ defmodule CrudApp.Router do
 
   get "/", CrudApp.UserController, :index, as: :pages
 
-  resources "user", CrudApp.UserController
+  resources "users", CrudApp.UserController
 end

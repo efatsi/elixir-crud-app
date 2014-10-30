@@ -1,1 +1,1 @@
-The page you are looking for does not exist
+<%= render CrudApp.SharedView, "not_found.html", assigns %>

@@ -13,6 +13,14 @@
 
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h2>Phoenix Crud App</h2>
+        <p class="lead">Brought to you by ProDev and Viget.</p>
+      </div>
+
+      <a href="/">Home</a>
+      <br>
+
       <%= @inner %>
     </div>
   </body>
